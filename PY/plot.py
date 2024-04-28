@@ -19,7 +19,7 @@ for i in range(5):
     # Append the losses to the list of losses
     losses.append(loss_data)
 losses = np.array(losses)
-mean_losses = np.mean(losses, axis=0)-0.01
+mean_losses = np.mean(losses, axis=0)
 standard_errors = np.std(losses, axis=0)/np.sqrt(5)
 
 
@@ -134,7 +134,7 @@ for i in range(5):
     # Append the losses to the list of losses
     accs.append(loss_data)
 accs = np.array(accs)
-mean_acc = np.mean(accs, axis=0)+0.01
+mean_acc = np.mean(accs, axis=0)
 standard_errors = np.std(accs, axis=0)/np.sqrt(5)
 
 
@@ -149,7 +149,7 @@ for i in range(5):
     # Append the losses to the list of losses
     accs.append(loss_data)
 accs = np.array(accs)
-mean_acc10 = np.mean(accs, axis=0)+0.01
+mean_acc10 = np.mean(accs, axis=0)
 standard_errors10 = np.std(accs, axis=0)/np.sqrt(5)
 
 accs = []
