@@ -10,7 +10,7 @@ import torch.optim as optim
 import csv
 from torchvision import datasets, transforms
 from torch.optim.lr_scheduler import StepLR
-from tensorboardX import SummaryWriter
+# from tensorboardX import SummaryWriter
 import pickle
 
 
